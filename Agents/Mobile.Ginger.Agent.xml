@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="fa03cdbe-e5a0-4009-bb02-1ece3cd988b4" ItemType="Agent" CreatedBy="shubhkar" Created="202310061830" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="shubhkar" LastUpdate="202310061831" />
+<Agent Active="True" AgentType="Driver" DriverType="Appium" Guid="fa03cdbe-e5a0-4009-bb02-1ece3cd988b4" Name="Mobile_Agent" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Mobile" Publish="True">
+<DriverConfiguration>
+<DriverConfigParam Description="Full Appium server address including port if needed, default address is: 'https://ServerIP:Port/wd/hub'" Guid="ef3bfa26-8cc5-4d9c-9e5a-c784fe3dc584" Parameter="AppiumServer" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://127.0.0.1:4723/wd/hub" />
+<DriverConfigParam Description="Proxy to be used for Appium server connection, need to include the server and port" Guid="e6397a6d-0222-4179-a152-e2b4d782da02" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Device platform type 'Android' or 'iOS'" Guid="95174842-784c-4d5f-bb3b-aa8b4a90b322" Parameter="DevicePlatformType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Android" />
+<DriverConfigParam Description="Device Source is Local Appium or UFTM Mobile Lab" Guid="0ff3ef71-b0dd-4dc8-91e1-e145b25033ba" Parameter="DeviceSource" ParentGuid="00000000-0000-0000-0000-000000000000" Value="LocalAppium" />
+<DriverConfigParam Description="The tested application type 'NativeHybride' or 'Web'" Guid="95f7eee6-0f62-470e-9a96-0c3aebae2960" Parameter="AppType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NativeHybride" />
+<DriverConfigParam Description="Determine if the Ginger device window will be loaded with the Agent" Guid="7bbd7c0c-6ea7-4d04-805c-12cae52b7ae1" Parameter="LoadDeviceWindow" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Determine if the Ginger device screen image will be refresh automatically during use" Guid="dd25fe82-040f-49a2-ac3c-a4b0bc7c0286" Parameter="DeviceAutoScreenshotRefreshMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Live" />
+<DriverConfigParam Description="Determine if auto set the default capabilities based on OS and application type selection" Guid="3a6a7cc5-db3f-4f90-8e45-b774678fd426" Parameter="AutoSetCapabilities" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Set UFTM Server capabilities autumatically" Guid="1c207777-1101-4d41-9a4d-531bc0c731dc" Parameter="UFTMServerCapabilities" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Set UFTM simulations automatically" Guid="04f8621e-3ce5-45ff-bc69-b65a39801004" Parameter="UFTMSupportSimulationsCapabiliy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Appium capabilities" Guid="31ed1142-8ea2-4f02-b672-dae60a31a49a" Parameter="AppiumCapabilities" ParentGuid="00000000-0000-0000-0000-000000000000">
+<MultiValues>
+<DriverConfigParam Description="Which mobile OS platform to use" Guid="ea15867a-a9fd-4f35-a0a9-00434f0166ce" Parameter="platformName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Android" />
+<DriverConfigParam Description="Which automation engine to use" Guid="bc4522c2-f21c-43e3-b9ee-0efbe284d7e7" Parameter="automationName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="UiAutomator2" />
+<DriverConfigParam Description="The kind of mobile device to use, for example 'Galaxy S21'" Guid="fe6f96f6-c27a-4e10-87ce-a229c6f596a4" Parameter="deviceName" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Unique device identifier of the connected physical device" Guid="73f1e56e-a899-4b42-b77d-ef958114c42d" Parameter="udid" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Java package of the Android application you want to run" Guid="ad0993ce-5e2b-4fc1-9dd0-b98a3c4e868a" Parameter="appPackage" ParentGuid="00000000-0000-0000-0000-000000000000" Value="com.android.settings" />
+<DriverConfigParam Description="Activity name for the Android activity you want to launch from your package" Guid="2d5325ec-9756-4d66-a69c-9823a3feab8a" Parameter="appActivity" ParentGuid="00000000-0000-0000-0000-000000000000" Value="com.android.settings.Settings" />
+<DriverConfigParam Description="How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session" Guid="8f24a06a-48f5-4e7e-982c-e322042ab710" Parameter="newCommandTimeout" ParentGuid="00000000-0000-0000-0000-000000000000" Value="300" />
+</MultiValues>
+</DriverConfigParam>
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="d79a802f-373f-4a4b-8cd9-72c749ff97e1" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>

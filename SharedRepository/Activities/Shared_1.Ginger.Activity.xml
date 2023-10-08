@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ItemType="Activity" CreatedBy="shubhkar" Created="202310061832" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="shubhkar" LastUpdate="202310061832" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Shared_1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="OSS_Wservices" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="9d94aef1-dd0c-4a06-a803-75c9e49c20bf" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="ae18a011-dd20-4c11-9aff-217b099b86ee" Guid="c9ff1529-98a7-4881-8011-be25d3ad3e9a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+
+<Variables>
+<VariableString Guid="2bec71f0-057e-47f9-9157-b88b7040d0fd" InitialStringValue="SR1_Value" MappedOutputType="None" Name="SR1_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</Activity></GingerRepositoryItem>

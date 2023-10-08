@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="eb1b00e2-08f2-4f39-b1cf-dda63d7544fb" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202310061825" GingerVersion="23.4.0.0" Version="6" LastUpdateBy="shubhkar" LastUpdate="202310061832" />
+<BusinessFlow Guid="eb1b00e2-08f2-4f39-b1cf-dda63d7544fb" Name="Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Shared 2 " Guid="48f54b2f-b24a-477b-8653-5bb57e0c8e74" ParentGuid="48f54b2f-b24a-477b-8653-5bb57e0c8e74" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="84bc7922-e983-4f98-b604-016544fb4e10" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="48f54b2f-b24a-477b-8653-5bb57e0c8e74" ActivityName="Shared 2 " ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="685aca2d-0646-43c9-9117-108e3221c2c5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="OSS_Wservices" Guid="bd582280-f44c-49ef-8853-a633adb89f4e" ParentGuid="069b6017-1e3d-4884-b1d7-1b4cdb724217" />
+<TargetApplication AppName="BSS_Unix" Guid="5d626a4e-f0e9-490b-bba2-623241e72d1d" ParentGuid="486cb66d-f38f-4a2f-b00b-ad5185412fa7" />
+<TargetApplication AppName="CRM_Mobile" Guid="8722ed58-4314-4f7c-ac18-61c0ab861da6" ParentGuid="a935a5d2-4300-4053-b2b7-1d7f9357fd75" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
