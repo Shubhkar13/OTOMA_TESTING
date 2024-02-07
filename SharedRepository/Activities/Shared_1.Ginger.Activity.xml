@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ItemType="Activity" CreatedBy="shubhkar" Created="202402071419" GingerVersion="24.1.2.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202402071419" />
+<GingerRepositoryItem><Header ItemGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ItemType="Activity" CreatedBy="shubhkar" Created="202402071424" GingerVersion="24.1.2.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202402071424" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Shared_1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="OSS_Wservices" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="7bcb12bd-f51f-437e-a624-bc5c4f7ce4d7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="16617dae-fb01-49fd-a85f-8894750e9561" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="43878160-da2d-4b7c-acb6-868eeaec028a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=List}" />
+<ActInputValue Guid="3794b32d-e8da-43b1-b238-d373f4573f3a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=List}" />
 </InputValues>
 </ActDummy>
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="ae18a011-dd20-4c11-9aff-217b099b86ee" Guid="f419186f-0a38-47c8-8d57-57952edcf7cf" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="ae18a011-dd20-4c11-9aff-217b099b86ee" Guid="80e3f0b1-ee9e-44fc-aea8-f50d8678e5ba" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 
 <Variables>
-<VariableString Guid="6a9fb51b-0d42-4ad6-a518-ff60b933f0c6" InitialStringValue="SR1_Value" MappedOutputType="None" Name="SR1_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
-<VariableSelectionList Guid="2f17ea53-fff1-491c-bf4c-38d59c05658f" IsDynamicValueModificationEnabled="True" MandatoryInput="True" MappedOutputType="None" Name="List" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Value="Value1">
+<VariableString Guid="5d536000-2a9d-40c3-b5da-0cd4a7bc6a97" InitialStringValue="SR1_Value" MappedOutputType="None" Name="SR1_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableSelectionList Guid="f56561aa-149b-49c2-9d92-56d4c35f7d83" IsDynamicValueModificationEnabled="True" MandatoryInput="True" MappedOutputType="None" Name="List" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Value="Value1">
 <OptionalValuesList>
 <OptionalValue Guid="1b9426d3-f62e-4271-b360-41fa4838df06" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Value1" />
 <OptionalValue Guid="967b151c-273f-4d58-b941-b1f4f937cbdb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Value2" />
