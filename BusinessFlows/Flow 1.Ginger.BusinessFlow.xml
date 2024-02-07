@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ebc03e6d-e292-4b70-9502-4d0b052a945d" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202310061818" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="shubhkar" LastUpdate="202310061832" />
+<GingerRepositoryItem><Header ItemGuid="ebc03e6d-e292-4b70-9502-4d0b052a945d" ItemType="BusinessFlow" CreatedBy="shubhkar" Created="202310061818" GingerVersion="24.1.2.0" Version="9" LastUpdateBy="shubhkar" LastUpdate="202402071419" />
 <BusinessFlow Guid="ebc03e6d-e292-4b70-9502-4d0b052a945d" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group" ActivityName="Shared_1" Guid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" Type="Link" />
@@ -8,7 +8,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="ce853ad7-742d-4b11-b6f0-d3feb8d21678" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ActivityName="Shared_1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="81daf9e4-46d9-4d38-84ea-2f0a8eef747c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ActivityName="Shared_1" ActivityParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" Guid="81daf9e4-46d9-4d38-84ea-2f0a8eef747c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

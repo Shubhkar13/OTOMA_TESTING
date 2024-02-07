@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5c3080fe-856c-4e75-b4b6-d4afbbf46d82" ItemType="Solution" CreatedBy="shubhkar" Created="202310061818" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202310061824" />
+<GingerRepositoryItem><Header ItemGuid="5c3080fe-856c-4e75-b4b6-d4afbbf46d82" ItemType="Solution" CreatedBy="shubhkar" Created="202310061818" GingerVersion="24.1.2.0" Version="4" LastUpdateBy="shubhkar" LastUpdate="202402071423" />
 <Solution EncryptedValidationString="JVMYmLmaE+3KIBbht70MSQ==" Guid="5c3080fe-856c-4e75-b4b6-d4afbbf46d82" Name="OTOMA_TESTING" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="Customer_Web" Guid="ae18a011-dd20-4c11-9aff-217b099b86ee" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
@@ -13,7 +13,7 @@
 </ApplitoolsConfiguration>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f74d39d9-0e4f-460f-97d4-cde53c99a468" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f74d39d9-0e4f-460f-97d4-cde53c99a468" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
