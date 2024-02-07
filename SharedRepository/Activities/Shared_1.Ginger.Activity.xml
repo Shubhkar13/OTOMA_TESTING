@@ -1,25 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ItemType="Activity" CreatedBy="shubhkar" Created="202402071424" GingerVersion="24.1.2.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202402071424" />
+<GingerRepositoryItem><Header ItemGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ItemType="Activity" CreatedBy="shubhkar" Created="202402071445" GingerVersion="24.1.2.0" Version="3" LastUpdateBy="shubhkar" LastUpdate="202402071445" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Shared_1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="OSS_Wservices" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="1956d78d-760a-4585-ae75-d83a6e1431cb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="4eb74f1a-7cdb-4d87-a813-3d0c295b26fc" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="61c140a1-8cc7-42b8-8896-e415fb0de865" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=List}" />
+<ActInputValue Guid="39d39570-7805-44f6-8a86-a7fdbc5f8a41" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=List}" />
 </InputValues>
 </ActDummy>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="40fd5f60-f7ac-4479-9b48-cc8cedd1c38a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="e8df0829-7a8d-471d-8a08-9472b0351525" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=List}" />
+<ActInputValue Guid="e06b227a-8475-4d78-8c65-a1e3bf530b26" Param="VariableName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="List" />
+<ActInputValue Guid="7d634591-85f0-49c4-953a-9f6e4bf642ed" Param="SetVariableValueOption" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetValue" />
+</InputValues>
+</ActSetVariableValue>
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="ae18a011-dd20-4c11-9aff-217b099b86ee" Guid="e73cba28-9454-4ab9-bc25-91140b3a14ae" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="ae18a011-dd20-4c11-9aff-217b099b86ee" Guid="949b0595-17ec-487f-9484-6f2691ed7944" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 
 <Variables>
-<VariableString Guid="a39c453c-3cfe-4c81-b9db-6fc0b7eac7e9" InitialStringValue="SR1_Value" MappedOutputType="None" Name="SR1_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
-<VariableSelectionList Guid="594e5349-6293-4eef-abf2-6edf79f7ea56" IsDynamicValueModificationEnabled="True" MandatoryInput="True" MappedOutputType="None" Name="List" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Value="Value1">
+<VariableSelectionList Guid="70948cc4-e4c9-4c21-9597-dfea05b6c547" IsDynamicValueModificationEnabled="True" MappedOutputType="None" Name="List" ParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentName="Flow 1\Group\Shared_1" ParentType="Activity" Publish="True" SetAsOutputValue="False" Value="Value1">
 <OptionalValuesList>
 <OptionalValue Guid="1b9426d3-f62e-4271-b360-41fa4838df06" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Value1" />
 <OptionalValue Guid="967b151c-273f-4d58-b941-b1f4f937cbdb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Value2" />
 </OptionalValuesList>
 </VariableSelectionList>
+<VariableString Guid="67883f23-ad70-4482-b7bf-b928b4998436" InitialStringValue="SR1_Value" MappedOutputType="None" Name="SR1_Variable" ParentGuid="4dabcdf1-129c-40ee-8ce8-c3c940cae2fd" ParentName="Flow 1\Group\Shared_1" ParentType="Activity" Publish="True" SetAsOutputValue="False" />
 </Variables>
 </Activity></GingerRepositoryItem>
